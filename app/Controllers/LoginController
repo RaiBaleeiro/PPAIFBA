@@ -1,0 +1,19 @@
+<?php
+
+namespace Ppaifba\Controllers;
+
+class LoginController{
+
+    public function login()
+{
+     echo"Página de Login";
+}
+
+    public function criarconta()
+    {
+        echo "Página de Cadastro de conta";
+    }
+
+
+}
+

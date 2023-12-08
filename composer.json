@@ -1,0 +1,15 @@
+{
+    "name": "ifba/ppaifba",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ppaifba\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rai"
+        }
+    ],
+    "require": {}
+}
