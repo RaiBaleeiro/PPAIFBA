@@ -2,11 +2,22 @@
 
 namespace Ppaifba\Controllers;
 
-class HomeController{
+use Ppaifba\Core\Controller;
+use Ppaifba\Core\Database;
+use Ppaifba\Models\Usuarios;
+
+class HomeController extends Controller{
+
 
     public function index()
 {
-     echo"Página Inicial";
+     $this->view("inicial");
 }
+
+    public function teste(){
+        $usuario = new Usuarios();
+        $usuario->inserir();
+    }
+
 }
 

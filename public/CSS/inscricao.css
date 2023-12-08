@@ -1,0 +1,176 @@
+
+body{
+    background-color: #F7F7F7;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+  header {
+    background: linear-gradient(135deg, #00C4CC, #7D2AE8, #00C4CC, #7D2AE8);
+    color: #fff;
+    padding: 1em;
+    text-align:center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    font-size: 15px;
+    
+  }
+
+
+  h1{
+    text-align: left;
+    font-family:'Bungee' , sans-serif;
+  }
+  
+  .cor{
+    color: #f4f4f4;
+    text-decoration: none;
+}  
+
+#cadas{
+    font-family:'Bungee' , sans-serif;
+    font-size: 23px;
+    text-decoration-line: none;
+}
+
+#pq{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#ajuda{
+    text-align: right;
+    font-family:'Bungee' , sans-serif;
+   
+}
+
+#desce{
+    padding-bottom: 500px;  
+    position:relative;
+
+}
+#config{
+    max-width: 80%; 
+    height: auto;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+
+}
+
+  
+
+.quadro{
+    background-color: rgb(224, 224, 224);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    margin-left: 130px;
+    
+}
+
+.quadro .incs{
+   margin: 100px;
+}
+
+#orga{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 80px;
+}
+
+#texto{
+    font-size: 40px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#conse{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 100px;
+}
+
+#botan{
+    display: inline-flex;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #059e2e;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+	background: linear-gradient(135deg, #000000, #000000, #000000, #7D2AE8);
+	padding: 2rem 14.5% 4rem;
+}
+
+footer .media {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: aliceblue;
+	margin-left: 30px;
+}
+
+
+
+h3{
+	color:white;
+    font-family:'Bungee' , sans-serif;
+}
+
+
+footer .media .media__redes h3{
+	font-size: .7rem;
+}
+
+footer select:hover {
+	opacity: 1;
+}
+
+footer .links {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	display: flex;
+	color: white;
+}
+
+footer .links h2{
+    font-size: .8rem;
+	
+}
+
+footer .links ul {
+	padding-right: 1rem;
+	
+}
+
+footer .links li {
+	padding: .3rem;
+	text-decoration: white;
+	
+}
+
+footer .links a {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color:white;
+	font-size: .8rem;
+}
